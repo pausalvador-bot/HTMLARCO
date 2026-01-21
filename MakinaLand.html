@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Música Mákina</title>
+</head>
+
+<body style="background-color:#222; color:#CCC; font-family:Arial; font-size:16px; margin:30px;">
+
+<header>
+    <h1>Festival Mákina 2025</h1>
+
+    <nav>
+        <ul style="list-style-type:none;">
+            <li>DJ Pastis</li>
+            <li>DJ Skudero</li>
+            <li>DJ Charly</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    
+    <section>
+        <h2>El Cartel</h2>
+
+        <dl>
+
+            <dt>DJ Pastis</dt>
+            <dd>
+                DJ de música mákina.  
+                <img src="pastis.webp" alt="Logo Pastis" title="Logo Pastis" width="100" height="100">
+            </dd>
+
+            <dt>DJ Skudero</dt>
+            <dd>
+                DJ del estilo Pont Aeri.  
+                <img src="skudero.webp" alt="Logo Skudero" title="Logo Skudero" width="100" height="100">
+            </dd>
+
+            <dt>DJ Charly</dt>
+            <dd>
+                DJ clásico del remember.  
+                <img src="charly.webp" alt="Logo Charly" title="Logo Charly" width="100" height="100">
+            </dd>
+
+        </dl>
+    </section>
+
+    
+    <section>
+        <h2>Horarios</h2>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Hora</th>
+                <th>Escenario Principal</th>
+                <th>Zona Remember</th>
+            </tr>
+
+            <tr>
+                <td>18:00 - 19:00</td>
+                <td rowspan="2">DJ Pastis</td>
+                <td>DJ Charly</td>
+            </tr>
+
+            <tr>
+                <td>19:00 - 20:00</td>
+                <td>DJ Mystery</td>
+            </tr>
+
+            <tr>
+                <td>20:00 - 21:00</td>
+                <td colspan="2">DESCANSO</td>
+            </tr>
+
+            <tr>
+                <td>21:00 - 22:00</td>
+                <td>DJ Skudero</td>
+                <td rowspan="2">DJ Jumper</td>
+            </tr>
+
+            <tr>
+                <td>22:00 - 23:00</td>
+                <td>DJ Sonic</td>
+            </tr>
+        </table>
+    </section>
+
+    
+    <section>
+        <h2>Inscripción</h2>
+
+        <form action="hola.php" method="post">
+
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="entrada">Tipo de entrada:</label><br>
+            <select id="entrada" name="entrada">
+                <option value="general">General</option>
+                <option value="vip">VIP</option>
+                <option value="backstage">Backstage</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>Festival Mákina 2025</p>
+</footer>
+
+</body>
+</html>
