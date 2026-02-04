@@ -1,4 +1,12 @@
 
+
+
+:root {
+--color-principal: #3498db;
+--color-fons: #222;
+--font-base: 'Arial, sans-serif';
+}
+
 nav ul li a {
     color: white;
 }
@@ -72,4 +80,10 @@ h2 {
 }
 p {
     text-align: justify;
+}
+
+input{
+background-color: var(--color-principal);
+color: var(--color-fons);
+font-family: var(--font-base);
 }
