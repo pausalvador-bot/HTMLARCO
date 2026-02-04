@@ -2,3 +2,57 @@
 nav ul li a {
     color: white;
 }
+
+body {
+     background-color: #222;
+      color: #CCC;
+       font-family: Arial, sans-serif;
+        font-size: 16px;
+         margin: 30px;
+}
+
+
+
+/* Paràgraf destacat */
+.intro {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00FFFF;
+    background-color: #333;
+    padding: 15px;
+    border-left: 6px solid #00FFFF;
+}
+
+/* Enllaç Fuente amb pseudo-classes */
+.fuente {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fuente:hover {
+    color: orange;
+    text-decoration: overline;
+}
+
+.fuente:visited {
+    color: pink;
+}
+
+/* Enllaços del menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+}
+
+
