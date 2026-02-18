@@ -81,6 +81,18 @@ h2 {
 p {
     text-align: justify;
 }
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.articles section {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
 
 input{
 background-color: var(--color-principal);
