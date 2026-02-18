@@ -100,6 +100,13 @@ color: var(--color-fons);
 font-family: var(--font-base);
 }
 
+section img {
+     transition: transform 0.5s ease-out;
+     }
+      section img:hover {
+         transform: translateX(20px);
+         }
+
 /* Pantalles MENORS de 600px */
 @media (width < 600px) {
     p {
