@@ -1,14 +1,13 @@
-/* ------------------------------ */
+
 /* FONT PERSONALITZADA            */
-/* ------------------------------ */
+
 @font-face {
     font-family: 'Alumni';
     src: url('../fonts/AlumniSans.ttf');
 }
 
-/* ------------------------------ */
 /* ESTILS GENERALS                */
-/* ------------------------------ */
+
 body {
     background: black;
     color: #ccc;
@@ -17,9 +16,9 @@ body {
     margin: 0;
 }
 
-/* ------------------------------ */
+
 /* HEADER + ANIMACIÓ              */
-/* ------------------------------ */
+
 header {
     display: flex;
     justify-content: center;
@@ -37,9 +36,9 @@ header {
     100% { transform: translateX(-50px); }
 }
 
-/* ------------------------------ */
+
 /* MAIN + GRID                    */
-/* ------------------------------ */
+
 main {
     display: flex;
     justify-content: center;
@@ -65,9 +64,9 @@ main {
     transform: scale(1.1);
 }
 
-/* ------------------------------ */
+
 /* FOOTER                         */
-/* ------------------------------ */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -77,9 +76,9 @@ footer {
     margin-top: 30px;
 }
 
-/* ------------------------------ */
+
 /* MEDIA QUERY                    */
-/* ------------------------------ */
+
 @media (max-width: 1200px) {
     .logo {
         width: 150px;
