@@ -1,10 +1,4 @@
 
-/* FONT PERSONALITZADA            */
-
-@font-face {
-    font-family: 'Alumni';
-    src: url('../fonts/AlumniSans.ttf');
-}
 
 /* ESTILS GENERALS                */
 
@@ -32,9 +26,17 @@ header {
 }
 
 @keyframes slide {
-    0% { transform: translateX(-100px); }
-    50% { transform: translateX(0px); }
-    100% { transform: translateX(1990px); }
+    0% {
+        transform: translateX(-100px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(1990px);
+    }
 }
 
 
@@ -75,8 +77,15 @@ footer {
     justify-content: center;
     padding: 10px;
     margin-top: 30px;
+    font-family: "Poppins";
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/SixtyfourConvergence.ttf");
+}
 
 /* MEDIA QUERY                    */
 
