@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+
+
+<head>
+
+
+
+</head>
+
+<body>
+
+<style>
+#caja{
+
+    width: 100px ;
+    height: 100px;
+    background-color: blue;
+}
+
+</style>
+
+    <div id="caja" onclick="agrandar()"></div>
+
+    <h1>Pagina exemple</h1>
+    <p id="text1">Estem aprenent javascript</p>
+    <p>Text d'exemple</p>
+
+    <img width="200"/>
+    
+    <button onclick="Cambiar()">cambia el text</button>
+
+    <button onclick="mostrar()">Apreta</button>
+    <script>console.log("Hola Mundo");
+        alert("Pau");
+        let imagen = document.querySelector("img");
+        imagen.removeAttribute("width");
+        imagen.setAttribute("src", "Logo-de-Google.webp");
+        imagen.setAttribute("title", "Logo de Google");
+        
+        
+        
+
+        function Cambiar() {
+
+            document.querySelector("#text1").textContent = "javascript es un lenguague";
+        }
+        function mostrar() {
+
+
+            alert("Apareixo desde un boton ");
+        }
+        function agrandar() {
+    let caixa = document.getElementById("caja");
+    caixa.style.width = "200px";
+    caixa.style.height = "200px";
+    caixa.style.backgroundColor = "red";
+}
+
+    </script>
+</body>
+
+</html>
